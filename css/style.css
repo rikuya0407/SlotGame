@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+header h3 {
+  font-size: 18px;
+}
+
+main .main-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  height: 300px;
+  width: 80%;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+main .main-contain .img-contain {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+}
+
+main .main-contain .img-contain img {
+  width: 100px;
+  height: 150px;
+}
+
+main .main-contain .img-contain .stop {
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main .start {
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inview {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
